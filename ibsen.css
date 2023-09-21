@@ -23,14 +23,16 @@
     color:azure;
 }
 .BROVIK{
-    color: rgb(59, 211, 56);
+    color:rgb(59,211,56)
 }
 .RAGNAR{
-    color:brown
+    color:blue;
 }
 .KAIA{
-    color: blue;
+    color: brown;
 }
+
+
 table td{
     width: 50%;
     border-collapse: collapse;
@@ -50,3 +52,48 @@ table td{
 tr:nth-child(even) {
     background-color:rgb(323,210,63);
 }
+div.KAIA:hover{
+    color:chartreuse;
+    text-shadow: 2px 2px 5px blue;
+}
+div.BROVIK:hover{
+    color:chartreuse;
+    text-shadow: 2px 2px 5px blue;
+}
+div.RAGNAR:hover{
+    color:chartreuse;
+    text-shadow: 2px 2px 5px blue;
+}
+.topnav {
+    background-color: #dcef90;
+    overflow: hidden;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #0086da;
+    color: white;
+  }
+
+
+
+
+
+
+
