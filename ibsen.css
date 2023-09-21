@@ -31,3 +31,22 @@
 .KAIA{
     color: blue;
 }
+table td{
+    width: 50%;
+    border-collapse: collapse;
+    margin: bottom 10px;
+}
+table td{
+    color: black;
+    text-align: left;
+    padding: 5px;
+    border: 3px black;
+}
+table td{
+    text-align: left;
+    padding: 10px;
+    border: 1px black;
+}
+tr:nth-child(even) {
+    background-color:rgb(323,210,63);
+}
